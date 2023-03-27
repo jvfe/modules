@@ -3501,6 +3501,10 @@ vg/index:
   - modules/nf-core/vg/index/**
   - tests/modules/nf-core/vg/index/**
 
+vibrant/vibrantrun:
+  - modules/nf-core/vibrant/vibrantrun/**
+  - tests/modules/nf-core/vibrant/vibrantrun/**
+
 vsearch/cluster:
   - modules/nf-core/vsearch/cluster/**
   - tests/modules/nf-core/vsearch/cluster/**
