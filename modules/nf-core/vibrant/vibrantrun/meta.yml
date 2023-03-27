@@ -33,9 +33,14 @@ input:
         subdirectories
 
 output:
-  - vibrant_results:
+  - meta:
+      type: map
+      description: |
+        Groovy Map containing sample information
+        e.g. [ id:'test', single_end:false ]
+  - results:
       type: directory
-      description: Path to VIBRANT's phage identification results
+      description: Path to VIBRANT's virus identification results
   - versions:
       type: file
       description: File containing software versions
