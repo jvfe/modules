@@ -13,7 +13,7 @@ process VIBRANT_VIBRANTRUN {
     path db
 
     output:
-    path val(meta), path("${prefix}"), emit: results
+    tuple val(meta), path("${prefix}"), emit: results
     path "versions.yml"              , emit: versions
 
     when:
